@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/zhouxiaojie/open source project/redis-4.0.0/src/modules/helloworld.c
+../redismodule.h
+/Users/zhouxiaojie/open source project/redis-4.0.0/src/redismodule.h
+stdio.h
+-
+stdlib.h
+-
+ctype.h
+-
+string.h
+-
+
+/Users/zhouxiaojie/open source project/redis-4.0.0/src/redismodule.h
+sys/types.h
+-
+stdint.h
+-
+stdio.h
+-
+

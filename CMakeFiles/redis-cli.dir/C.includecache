@@ -1,0 +1,336 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/zhouxiaojie/open source project/redis-4.0.0/src/adlist.c
+stdlib.h
+-
+adlist.h
+/Users/zhouxiaojie/open source project/redis-4.0.0/src/adlist.h
+zmalloc.h
+/Users/zhouxiaojie/open source project/redis-4.0.0/src/zmalloc.h
+
+/Users/zhouxiaojie/open source project/redis-4.0.0/src/adlist.h
+
+/Users/zhouxiaojie/open source project/redis-4.0.0/src/ae.c
+stdio.h
+-
+sys/time.h
+-
+sys/types.h
+-
+unistd.h
+-
+stdlib.h
+-
+poll.h
+-
+string.h
+-
+time.h
+-
+errno.h
+-
+ae.h
+/Users/zhouxiaojie/open source project/redis-4.0.0/src/ae.h
+zmalloc.h
+/Users/zhouxiaojie/open source project/redis-4.0.0/src/zmalloc.h
+config.h
+/Users/zhouxiaojie/open source project/redis-4.0.0/src/config.h
+ae_evport.c
+/Users/zhouxiaojie/open source project/redis-4.0.0/src/ae_evport.c
+ae_epoll.c
+/Users/zhouxiaojie/open source project/redis-4.0.0/src/ae_epoll.c
+ae_kqueue.c
+/Users/zhouxiaojie/open source project/redis-4.0.0/src/ae_kqueue.c
+ae_select.c
+/Users/zhouxiaojie/open source project/redis-4.0.0/src/ae_select.c
+
+/Users/zhouxiaojie/open source project/redis-4.0.0/src/ae.h
+time.h
+-
+
+/Users/zhouxiaojie/open source project/redis-4.0.0/src/ae_epoll.c
+sys/epoll.h
+-
+
+/Users/zhouxiaojie/open source project/redis-4.0.0/src/ae_evport.c
+assert.h
+-
+errno.h
+-
+port.h
+-
+poll.h
+-
+sys/types.h
+-
+sys/time.h
+-
+stdio.h
+-
+
+/Users/zhouxiaojie/open source project/redis-4.0.0/src/ae_kqueue.c
+sys/types.h
+-
+sys/event.h
+-
+sys/time.h
+-
+
+/Users/zhouxiaojie/open source project/redis-4.0.0/src/ae_select.c
+sys/select.h
+-
+string.h
+-
+
+/Users/zhouxiaojie/open source project/redis-4.0.0/src/anet.c
+fmacros.h
+/Users/zhouxiaojie/open source project/redis-4.0.0/src/fmacros.h
+sys/types.h
+-
+sys/socket.h
+-
+sys/stat.h
+-
+sys/un.h
+-
+sys/time.h
+-
+netinet/in.h
+-
+netinet/tcp.h
+-
+arpa/inet.h
+-
+unistd.h
+-
+fcntl.h
+-
+string.h
+-
+netdb.h
+-
+errno.h
+-
+stdarg.h
+-
+stdio.h
+-
+anet.h
+/Users/zhouxiaojie/open source project/redis-4.0.0/src/anet.h
+
+/Users/zhouxiaojie/open source project/redis-4.0.0/src/anet.h
+sys/types.h
+-
+
+/Users/zhouxiaojie/open source project/redis-4.0.0/src/atomicvar.h
+pthread.h
+-
+
+/Users/zhouxiaojie/open source project/redis-4.0.0/src/config.h
+AvailabilityMacros.h
+-
+linux/version.h
+-
+features.h
+-
+sys/feature_tests.h
+-
+sys/types.h
+-
+machine/endian.h
+-
+endian.h
+-
+
+/Users/zhouxiaojie/open source project/redis-4.0.0/src/crc64.c
+stdint.h
+-
+stdio.h
+-
+
+/Users/zhouxiaojie/open source project/redis-4.0.0/src/crc64.h
+stdint.h
+-
+
+/Users/zhouxiaojie/open source project/redis-4.0.0/src/fmacros.h
+
+/Users/zhouxiaojie/open source project/redis-4.0.0/src/help.h
+
+/Users/zhouxiaojie/open source project/redis-4.0.0/src/redis-cli.c
+fmacros.h
+/Users/zhouxiaojie/open source project/redis-4.0.0/src/fmacros.h
+version.h
+/Users/zhouxiaojie/open source project/redis-4.0.0/src/version.h
+stdio.h
+-
+string.h
+-
+stdlib.h
+-
+signal.h
+-
+unistd.h
+-
+time.h
+-
+ctype.h
+-
+errno.h
+-
+sys/stat.h
+-
+sys/time.h
+-
+assert.h
+-
+fcntl.h
+-
+limits.h
+-
+math.h
+-
+hiredis.h
+-
+sds.h
+-
+zmalloc.h
+/Users/zhouxiaojie/open source project/redis-4.0.0/src/zmalloc.h
+linenoise.h
+/Users/zhouxiaojie/open source project/redis-4.0.0/src/linenoise.h
+help.h
+/Users/zhouxiaojie/open source project/redis-4.0.0/src/help.h
+anet.h
+/Users/zhouxiaojie/open source project/redis-4.0.0/src/anet.h
+ae.h
+/Users/zhouxiaojie/open source project/redis-4.0.0/src/ae.h
+
+/Users/zhouxiaojie/open source project/redis-4.0.0/src/release.c
+string.h
+-
+release.h
+/Users/zhouxiaojie/open source project/redis-4.0.0/src/release.h
+version.h
+/Users/zhouxiaojie/open source project/redis-4.0.0/src/version.h
+crc64.h
+/Users/zhouxiaojie/open source project/redis-4.0.0/src/crc64.h
+
+/Users/zhouxiaojie/open source project/redis-4.0.0/src/release.h
+
+/Users/zhouxiaojie/open source project/redis-4.0.0/src/sds.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+ctype.h
+-
+assert.h
+-
+limits.h
+-
+sds.h
+/Users/zhouxiaojie/open source project/redis-4.0.0/src/sds.h
+sdsalloc.h
+/Users/zhouxiaojie/open source project/redis-4.0.0/src/sdsalloc.h
+stdio.h
+-
+testhelp.h
+/Users/zhouxiaojie/open source project/redis-4.0.0/src/testhelp.h
+limits.h
+/Users/zhouxiaojie/open source project/redis-4.0.0/src/limits.h
+
+/Users/zhouxiaojie/open source project/redis-4.0.0/src/sds.h
+sys/types.h
+-
+stdarg.h
+-
+stdint.h
+-
+
+/Users/zhouxiaojie/open source project/redis-4.0.0/src/sdsalloc.h
+zmalloc.h
+/Users/zhouxiaojie/open source project/redis-4.0.0/src/zmalloc.h
+
+/Users/zhouxiaojie/open source project/redis-4.0.0/src/testhelp.h
+
+/Users/zhouxiaojie/open source project/redis-4.0.0/src/version.h
+
+/Users/zhouxiaojie/open source project/redis-4.0.0/src/zmalloc.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+pthread.h
+-
+config.h
+/Users/zhouxiaojie/open source project/redis-4.0.0/src/config.h
+zmalloc.h
+/Users/zhouxiaojie/open source project/redis-4.0.0/src/zmalloc.h
+atomicvar.h
+/Users/zhouxiaojie/open source project/redis-4.0.0/src/atomicvar.h
+unistd.h
+-
+sys/types.h
+-
+sys/stat.h
+-
+fcntl.h
+-
+unistd.h
+-
+stdio.h
+-
+stdlib.h
+-
+sys/types.h
+-
+sys/sysctl.h
+-
+mach/task.h
+-
+mach/mach_init.h
+-
+
+/Users/zhouxiaojie/open source project/redis-4.0.0/src/zmalloc.h
+google/tcmalloc.h
+-
+jemalloc/jemalloc.h
+-
+malloc/malloc.h
+-
+
+deps/hiredis/hiredis.h
+read.h
+deps/hiredis/read.h
+stdarg.h
+-
+sys/time.h
+-
+stdint.h
+-
+sds.h
+deps/hiredis/sds.h
+
+deps/hiredis/read.h
+stdio.h
+-
+
+deps/hiredis/sds.h
+sys/types.h
+-
+stdarg.h
+-
+stdint.h
+-
+
+deps/linenoise/linenoise.h
+
